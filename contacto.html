@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="shortcut icon" href="Imagenes/favicon.png">
+    <link rel="stylesheet" href="css/contacto.css" type="text/css">
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="Imagenes/logo.png" alt="Logo"></a>
+        <h1>Gimnasio OLYMPUS Aranda</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Quiénes somos</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+    <h2>Contacto</h2>
+    <h4>Si tienes cualquier duda puedes contactar con nosotros.</h4>
+    <article>
+        <section>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Datos personales</legend>
+                    <table>
+                        <tr>
+                            <td><p>Nombre</p></td>
+                            <td><input type="text" name="nombre" required=""></td>
+                        </tr>
+                        <tr>
+                            <td><p>Apellidos</p></td>
+                            <td><input type="text" name="apellidos" required=""></td>
+                        </tr>
+                        <tr>
+                            <td><p>Correo electrónico</p></td>
+                            <td><input type="email" name="email" required></td>
+                        </tr>
+                    </table>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Consulta</legend>
+                    <table>
+                        <tr>
+                            <td><p>Motivo de la consulta:</p></td>
+                        </tr>
+                        <tr>
+                            <td>Quiero apuntarme<input type="radio" name="motivo" value="apuntarme" required="" class="radio"> Necesito más información<input type="radio" name="motivo" value="informacion" required="" class="radio"> Horario de clases<input type="radio" name="motivo" value="horario" required="" class="radio"> Otro<input type="radio" name="motivo" value="otro" required="" class="radio"></td>
+                        </tr>
+                        <tr>
+                            <td><p>Breve descripción de la consulta:</p></td>
+                        </tr>
+                        <tr>
+                            <td><textarea name="descripcion"></textarea></td>
+                        </tr>
+                    </table>
+                </fieldset>
+                <br>
+                <input type="submit" name="enviar" value="Enviar">
+            </form>
+        </section>
+        <section>
+            <!--Referencia al mapa utilizando las herramientas que nos ofrece el propio Google Maps para poder referenciar una ubicación concreta.-->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2980.1819427976593!2d-3.6834986850630718!3d41.673413886178345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4426684087a9c9%3A0xa701a405eec64244!2sCalle%20Eras%20Santa%20Catalina%2C%2028%2C%2009400%20Aranda%20de%20Duero%2C%20Burgos!5e0!3m2!1ses!2ses!4v1642266328173!5m2!1ses!2ses" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+    </article>
+    <footer>
+        <hr>
+        <p>Javier Sacristán Zayas. &nbsp; CIFP Santa Catalina. &nbsp;Aranda de Duero, Burgos. &nbsp;2º DAW.</p>
+    </footer>
+</body>
+</html>
